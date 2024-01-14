@@ -260,7 +260,6 @@
     /* prevents padding from affecting height and width */
     box-sizing: border-box;
     padding: 0.75rem 1rem;
-    background-color: #fff;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     position: fixed;
     z-index: 10000;
@@ -695,7 +694,6 @@
     /* prevents padding from affecting height and width */
     box-sizing: border-box;
     padding: 0 1rem;
-    background-color: #fff;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     position: fixed;
     z-index: 10000;

@@ -2,14 +2,17 @@
 //    The Dark Mode System
 //
 // helper functions to toggle dark mode
+const navElm = document.getElementById("cs-navigation");
 function enableDarkMode() {
   document.body.classList.add("dark-mode");
   localStorage.setItem("theme", "dark");
+  navElm.style.backgroundColor = null;
 }
 function disableDarkMode() {
   document.body.classList.remove("dark-mode");
   localStorage.setItem("theme", "light");
   document.documentElement.style.backgroundColor = lightBgColor;
+  navElm.style.backgroundColor = "#fff";
 }
 
 // determines a new users dark mode preferences
